@@ -35,6 +35,11 @@ cambiarTema.addEventListener("click", alternarColorTema);
 
 function obtenerDatosDelUsuario() {
   /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
+  datosPersona.nombre = prompt("Ingesa tu nombre");
+  datosPersona.edad = prompt("Ingrese el año en el que naciste");
+  datosPersona.ciudad = prompt("Ingresa la ciudad donde vives");
+  datosPersona.interesPorJs = prompt("¿Te interesa JavaSript?");
+
 
 
 
@@ -63,7 +68,7 @@ function alternarColorTema() {
 
   sitio.classList.toggle("dark");
 
-  
+
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
