@@ -78,8 +78,11 @@ function recorrerListadoYRenderizarTarjetas() {
   listado.forEach(lista => {
     document.querySelector("#fila").innerHTML += 
     `
-        <article>
-            <p>${lista.lenguajes}</p>
+        <article class="caja">
+        <img src=${lista.imgUrl} alt=${lista.lenguajes}>
+
+            <p class ="lenguajes">${lista.lenguajes}</p>
+            <p class ="bimestre">${lista.bimestre}
         </article>;
         `
 })
