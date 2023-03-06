@@ -81,9 +81,9 @@ function recorrerListadoYRenderizarTarjetas() {
         <article class="caja">
         <img src=${lista.imgUrl} alt=${lista.lenguajes}>
 
-            <p class ="lenguajes">${lista.lenguajes}</p>
-            <p class ="bimestre">${lista.bimestre}
-        </article>;
+            <p class ="lenguajes"> Lenguajes: ${lista.lenguajes}</p>
+            <p class ="bimestre">Bimestre: ${lista.bimestre}
+        </article>
         `
 })
 
