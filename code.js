@@ -74,6 +74,8 @@ function renderizarDatosUsuario() {
 function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
   
+  document.querySelector("#fila").innerHTML = '';
+
 
   listado.forEach(lista => {
     document.querySelector("#fila").innerHTML += 
@@ -81,11 +83,12 @@ function recorrerListadoYRenderizarTarjetas() {
         <article class="caja">
         <img src=${lista.imgUrl} alt=${lista.lenguajes}>
 
-            <p class ="lenguajes"> Lenguajes: ${lista.lenguajes}</p>
+            <p class ="lenguajes">Lenguajes: ${lista.lenguajes}</p>
             <p class ="bimestre">Bimestre: ${lista.bimestre}
         </article>
         `
 })
+
 
 }
 
