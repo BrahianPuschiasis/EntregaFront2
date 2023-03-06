@@ -75,8 +75,18 @@ function recorrerListadoYRenderizarTarjetas() {
   /* ------------------ PUNTO 3: Escribe tu codigo desde aqui ------------------ */
   
 
+  listado.forEach(lista => {
+    document.querySelector("#fila").innerHTML += 
+    `
+        <article>
+            <p>${lista.lenguajes}</p>
+        </article>;
+        `
+})
 
 }
+
+
 
 function alternarColorTema() {
   
