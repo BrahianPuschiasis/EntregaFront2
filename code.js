@@ -38,12 +38,19 @@ function obtenerDatosDelUsuario() {
   datosPersona.nombre = prompt("Ingesa tu nombre");
   datosPersona.edad = 2023 - prompt("Ingrese el año en el que naciste");
   datosPersona.ciudad = prompt("Ingresa la ciudad donde vives");
-  datosPersona.interesPorJs = prompt("¿Te interesa JavaSript?");
+
+ if (confirm("¿Te interesa JavaSript?")){
+  datosPersona.interesPorJs = "Si"
+ }
+  else{
+    datosPersona.interesPorJs = "No"
+  }
+
+ }
 
 
 
 
-}
 
 function renderizarDatosUsuario() {
   /* ------------------- NO TOCAR NI ELIMINAR ESTA FUNCION. ------------------- */
