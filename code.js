@@ -5,7 +5,7 @@ let datosPersona = {
   ciudad: "",
   interesPorJs: "",
 };
-//asd
+
 const listado = [{
     imgUrl: "https://huguidugui.files.wordpress.com/2015/03/html1.png",
     lenguajes: "HTML y CSS",
@@ -35,7 +35,7 @@ cambiarTema.addEventListener("click", alternarColorTema);
 
 function obtenerDatosDelUsuario() {
   /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
- 
+
 
 
 }
@@ -58,11 +58,12 @@ function recorrerListadoYRenderizarTarjetas() {
 }
 
 function alternarColorTema() {
-  /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
- 
   
+  /* --------------------- PUNTO 4: Escribe tu codigo aqui --------------------- */
 
+  sitio.classList.toggle("dark");
 
+  
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
