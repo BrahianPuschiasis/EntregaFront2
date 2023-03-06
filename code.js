@@ -36,7 +36,7 @@ cambiarTema.addEventListener("click", alternarColorTema);
 function obtenerDatosDelUsuario() {
   /* --------------- PUNTO 1: Escribe tu codigo a partir de aqui --------------- */
   datosPersona.nombre = prompt("Ingesa tu nombre");
-  datosPersona.edad = prompt("Ingrese el año en el que naciste");
+  datosPersona.edad = 2023 - prompt("Ingrese el año en el que naciste");
   datosPersona.ciudad = prompt("Ingresa la ciudad donde vives");
   datosPersona.interesPorJs = prompt("¿Te interesa JavaSript?");
 
@@ -49,7 +49,16 @@ function renderizarDatosUsuario() {
   /* ------------------- NO TOCAR NI ELIMINAR ESTA FUNCION. ------------------- */
   obtenerDatosDelUsuario();
   /* --------------- PUNTO 2: Escribe tu codigo a partir de aqui --------------- */
-  
+  const nombre = document.querySelector("#nombre");
+  const edad = document.querySelector("#edad");
+  const ciudad = document.querySelector("#ciudad");
+  const interesPorJs = document.querySelector("#javascript");
+
+  nombre.innerText = datosPersona.nombre;
+  edad.innerText = datosPersona.edad;
+  ciudad.innerText = datosPersona.ciudad;
+  interesPorJs.innerText = datosPersona.interesPorJs;
+
 
 
 }
