@@ -84,7 +84,7 @@ function recorrerListadoYRenderizarTarjetas() {
         <img src=${lista.imgUrl} alt=${lista.lenguajes}>
 
             <p class ="lenguajes">Lenguajes: ${lista.lenguajes}</p>
-            <p class ="bimestre">Bimestre: ${lista.bimestre}
+            <p class ="bimestre">Bimestre: ${lista.bimestre}</p>
         </article>
         `
 })
