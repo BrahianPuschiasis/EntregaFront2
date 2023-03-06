@@ -82,3 +82,25 @@ function alternarColorTema() {
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
 
+
+
+document.addEventListener('keydown', (event) => {
+  const tecla = event.key;
+
+
+  const ocultar = document.getElementById("sobre-mi");
+  const ocultar2 = ocultar.classList;
+
+
+  if (tecla == "f"){
+
+
+    ocultar2.remove("oculto");
+
+
+
+
+  }
+
+
+}, false);
