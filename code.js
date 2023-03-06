@@ -5,7 +5,7 @@ let datosPersona = {
   ciudad: "",
   interesPorJs: "",
 };
-
+//asd
 const listado = [{
     imgUrl: "https://huguidugui.files.wordpress.com/2015/03/html1.png",
     lenguajes: "HTML y CSS",
